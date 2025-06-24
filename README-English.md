@@ -11,19 +11,19 @@ Here's the English translation of your profile with all the stylistic elements p
 Favorite characters:
 
 - Murasame-chan from "Senren＊Banka" ✨ (my precious angel ✨)
-- Shirayuki Noa from "Angel☆Scream RE-BOOT!" ❤️ (my lovely little devil ❤️)
+- Shirayuki Noa from "Angel☆Scream RE-BOOT!" ❤️ (my lovely little devil ❤️)   
   Public alias: Murasame Noa ฅ^•ﻌ•^ฅ
 
-🎌 Founder of Murasame Dev | Always hiding Yuzusoft references in my code (∠・ω< )⌒★
-🐾 Member of Siiway | Currently optimizing the Sleepy (status tracker) project
-🐍 Python Developer | Actually an AI coder at heart ฅ^•ﻌ•^ฅ
-🤖 Focused on developing chatbot entertainment plugins | My works:
+🎌 Founder of Murasame Dev | Always hiding Yuzusoft references in my code (∠・ω< )⌒★   
+🐾 Member of Siiway | Currently optimizing the Sleepy (status tracker) project   
+🐍 Python Developer | Actually an AI coder at heart ฅ^•ﻌ•^ฅ   
+🤖 Focused on developing chatbot entertainment plugins | My works:   
 
 - [**QQEssentials**](https://github.com/Murasame-Dev/nonebot-plugin-qqessentials) (A multifunctional QQ plugin that fulfills all your basic needs!)
 - [**AreUSleepy**](https://github.com/Murasame-Dev/nonebot-plugin-areusleepy) (Let bots keep an eye on us!)
 
-💭 Highly sensitive | Always concerned about friends' status and opinions (´• ω •`)ﾉ
-🗣️ Not great with words | But I'll try my best to express myself clearly!
+💭 Highly sensitive | Always concerned about friends' status and opinions (´• ω •`)ﾉ   
+🗣️ Not great with words | But I'll try my best to express myself clearly!   
 ✨ Will reply to all messages | Hope to become good friends with everyone! (≧∇≦)ﾉ
 
 ---

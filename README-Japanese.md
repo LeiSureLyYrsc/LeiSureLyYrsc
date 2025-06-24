@@ -15,19 +15,19 @@ These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan
 推しキャラ：
 
 - 『千恋＊万花』の ムラサメ ちゃん ✨
-- 『天使☆嚣嚣 RE-BOOT!』の白雪乃愛ちゃん ❤️
+- 『天使☆嚣嚣 RE-BOOT!』の白雪乃愛ちゃん ❤️   
   対外的に使用するユニット名は Murasame Noa（叢雨乃愛）ฅ^•ﻌ•^ฅ
 
-🎌 Murasame Dev 組織創設者 | コードに必ずゆず要素を隠す(∠・ω< )⌒★
-🐾 Siiway 組織メンバー | Sleepy（ステータス監視）プロジェクト改良中
-🐍 Python開発者 | 実はAIコーダーですฅ^•ﻌ•^ฅ
+🎌 Murasame Dev 組織創設者 | コードに必ずゆず要素を隠す(∠・ω< )⌒★   
+🐾 Siiway 組織メンバー | Sleepy（ステータス監視）プロジェクト改良中   
+🐍 Python開発者 | 実はAIコーダーですฅ^•ﻌ•^ฅ   
 🤖 チャットボット娯楽プラグイン開発に注力 | 主な作品：
 
 - [**QQEssentials**](https://github.com/Murasame-Dev/nonebot-plugin-qqessentials) （多機能なQQ基本プラグイン！）
 - [**AreUSleepy**](https://github.com/Murasame-Dev/nonebot-plugin-areusleepy) （Botに監視させよう！）
 
-💭 敏感体質 | 友達の状態や意見が気になります (´• ω •`)ﾉ
-🗣️ 言葉にするのが苦手 | でも頑張って伝えます！
+💭 敏感体質 | 友達の状態や意見が気になります (´• ω •`)ﾉ   
+🗣️ 言葉にするのが苦手 | でも頑張って伝えます！   
 ✨ メッセージには必ず返信 | みんなと仲良くなりたい！(≧∇≦)ﾉ
 
 ---
