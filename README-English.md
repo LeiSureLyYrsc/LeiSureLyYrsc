@@ -6,8 +6,6 @@ Here's the English translation of your profile with all the stylistic elements p
 
 ### A freshman student from China🇨🇳 and a huge Yuzusoft fan (∠・ω< )⌒★
 
-> ⚠️ This content was translated by AI. If anything seems unclear, please refer to the [Chinese version](./README.md)!
-
 Favorite characters:
 
 - Murasame-chan from "Senren＊Banka" ✨ (my precious angel ✨)
