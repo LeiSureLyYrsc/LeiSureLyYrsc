@@ -46,7 +46,7 @@ These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan
 
 ---
 
-[中文](./README.md)📍目前的位置 [日本語](./README-Japanese.md) [English](./README-English)   
+[中文](https://github.com/LeiSureLyYrsc)📍目前的位置 [日本語](./README-Japanese.md) [English](./README-English)   
 (ﾉ>ω<)ﾉ ♡
 
 ~~*感觉不会持续更新多语言版*~~
