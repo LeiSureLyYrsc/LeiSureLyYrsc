@@ -1,16 +1,33 @@
-## Hi there 👋
+[![Kawaii Murasame!](./kawaii.jpg)
 
-<!--
-**LeiSureLyYrsc/LeiSureLyYrsc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<center>这些可爱的丛雨酱是来自<a href="https://x.com/uoouchan">@uoouchan</a>的！</center>
+<center>これらの可愛いムラサメちゃんは<a href="https://x.com/uoouchan">@uoouchan</a>さんからのものです！</center>
+<center>These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan</a>! </center>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
