@@ -22,10 +22,6 @@ These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan
 🎌 Murasame Dev 组织创始人 | 代码里必藏柚子厨元素(∠・ω< )⌒★   
 🐾 Siiway 组织成员 | 正在优化 Sleepy(状态视奸) 项目   
 🐍 Python开发者 | 实际上是个 AI Coder ฅ^•ﻌ•^ฅ   
-🤖 专注于开发机器人聊天娱乐插件 | 作品:  
-
-- [**QQEssentials**](https://github.com/Murasame-Dev/nonebot-plugin-qqessentials) (一个能够满足你很多需求的QQ基础插件！)
-- [**AreUSleepy**](https://github.com/Murasame-Dev/nonebot-plugin-areusleepy) (让bot来视剑我们！)
 
 💭 敏感体质 | 很在意朋友们的状态和看法 (´• ω •`)ﾉ   
 🗣️ 语言组织苦手 | 但会努力表达清楚！   
