@@ -8,6 +8,9 @@ These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan
 
 ---
 
+# 个人精神紧急维护:正在进行自我修复，请留言
+# 近期不会进行任何活动，请见谅
+
 ## Ciallo～(∠・ω< )⌒★👋 这里是 LeiSureLy ~
 
 ### 一名来自中国🇨🇳的大一学生，柚子厨一枚(∠・ω< )⌒★
