@@ -8,8 +8,7 @@ These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan
 
 ---
 
-# 个人精神紧急维护:正在进行自我修复，请留言
-# 近期不会进行任何活动，请见谅
+# 不会吧不会吧，都5202年了还不知道我何飞洋是抽象派吧😋
 
 ## Ciallo～(∠・ω< )⌒★👋 这里是 LeiSureLy ~
 
