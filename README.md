@@ -47,25 +47,36 @@ These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan
 
 #### 📊 我的 GitHub 统计信息
 
+> 🤖 本节图片由 [GitHub Actions](.github/workflows/update-profile-cards.yml) 每天读取 Profile 状态自动更新一次（北京时间约 02:17），生成结果发布在 `output` 分支
+
 <p align="center">
-  <!-- 贡献统计卡（streak-stats）+ 最常用语言卡：跟随系统亮/暗主题自动切换，数据每日动态刷新 -->
+  <!-- 贡献统计卡 + GitHub 状态卡 -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=LeiSureLyYrsc&theme=github-dark&locale=zh&border=2E343B">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=LeiSureLyYrsc&theme=github&locale=zh&border=E4E2E2&background=FFFFFF">
-    <img width="460" alt="LeiSureLyYrsc 的 GitHub 贡献统计" src="https://streak-stats.demolab.com/?user=LeiSureLyYrsc&theme=github&locale=zh&border=E4E2E2&background=FFFFFF">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/streak-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/streak-light.svg">
+    <img width="460" alt="LeiSureLyYrsc 的贡献统计（合计 / 当前连续 / 最长连续贡献）" src="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/streak-light.svg">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeiSureLyYrsc&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeiSureLyYrsc&theme=github">
-    <img width="340" alt="最常用的编程语言（按提交量统计）" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeiSureLyYrsc&theme=github">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/stats-light.svg">
+    <img width="450" alt="LeiSureLyYrsc 的 GitHub 状态（Star / 提交 / PR / Issue）" src="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/stats-light.svg">
   </picture>
 </p>
 
 <p align="center">
-  <!-- Contribution 吃豆人：每次加载实时读取贡献图生成，无需 GitHub Actions / workflow 文件 -->
+  <!-- 最常用语言卡 -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://pacman.abozanona.me/?username=LeiSureLyYrsc&platform=github&gameTheme=github-dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://pacman.abozanona.me/?username=LeiSureLyYrsc&platform=github&gameTheme=github">
-    <img width="830" alt="Contribution 贡献图吃豆人动画" src="https://pacman.abozanona.me/?username=LeiSureLyYrsc&platform=github&gameTheme=github">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/top-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/top-langs-light.svg">
+    <img width="300" alt="最常用的编程语言" src="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/top-langs-light.svg">
+  </picture>
+</p>
+
+<p align="center">
+  <!-- Contribution 吃豆人：由 Actions 每日重新生成，不依赖第三方在线服务 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/pacman-contribution-graph.svg">
+    <img width="830" alt="Contribution 贡献图吃豆人动画" src="https://raw.githubusercontent.com/LeiSureLyYrsc/LeiSureLyYrsc/output/pacman-contribution-graph.svg">
   </picture>
 </p>

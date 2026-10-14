@@ -1,0 +1,137 @@
+name: 每日更新主页统计卡片
+
+# 每天自动读取 GitHub Profile 状态，重新生成卡片图片并发布到 output 分支
+on:
+  schedule:
+    # 每天 UTC 18:17 运行 = 北京时间 02:17（避开整点高峰，防止延迟跳过）
+    - cron: "17 18 * * *"
+  workflow_dispatch: # 支持在 Actions 页面手动触发
+  push:
+    branches:
+      - main
+    paths:
+      # 本文件被修改时自动跑一次，方便调试
+      - ".github/workflows/update-profile-cards.yml"
+
+# 同一时间只跑一个，避免并发推送互相覆盖
+concurrency:
+  group: update-profile-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write # 需要推送到 output 分支
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v7
+
+      # ---------- 1. 贡献统计卡（合计 / 当前连续 / 最长连续） ----------
+      - name: 生成贡献统计卡（亮色）
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          # 注意：options 必须写在一行，换行会被折成空格从而破坏参数
+          options: user=${{ github.repository_owner }}&theme=github-light&locale=zh_Hans&timezone=Asia/Shanghai&border=E4E2E2&background=FFFEFE&disable_animations=true
+          path: profile/streak-light.svg
+
+      - name: 生成贡献统计卡（暗色）
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=github-dark&locale=zh_Hans&timezone=Asia/Shanghai&border=2E343B&background=0D1117&disable_animations=true
+          path: profile/streak-dark.svg
+
+      # ---------- 2. GitHub 状态卡（Star / 提交 / PR / Issue） ----------
+      - name: 生成 GitHub 状态卡（亮色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&locale=cn&border_color=e4e2e2
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: 生成 GitHub 状态卡（暗色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&locale=cn&border_color=2e343b
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      # ---------- 3. 最常用语言卡 ----------
+      - name: 生成最常用语言卡（亮色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=default&locale=cn&border_color=e4e2e2
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: 生成最常用语言卡（暗色）
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&locale=cn&border_color=2e343b
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      # ---------- 4. Contribution 吃豆人（自动生成亮/暗两套） ----------
+      - name: 生成吃豆人贡献图
+        uses: abozanona/pacman-contribution-graph@v5.3.2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: "pacman"
+          player_style: "opportunistic"
+          hide_month_labels: "false"
+
+      # ---------- 汇总所有图片到一个目录 ----------
+      - name: 汇总生成结果
+        run: |
+          set -euo pipefail
+          mkdir -p public
+
+          # 统计类小卡片
+          if compgen -G "profile/*.svg" > /dev/null; then
+            cp profile/*.svg public/
+          fi
+
+          # 吃豆人（体积较大，约 250KB/张）
+          if compgen -G "dist/*.svg" > /dev/null; then
+            cp dist/*.svg public/
+          fi
+
+          # 发布是 force push，缺文件会导致线上图片直接消失，
+          # 所以这里先确认 8 张图全都生成成功，少一张就整体失败。
+          missing=0
+          for f in \
+            streak-light.svg streak-dark.svg \
+            stats-light.svg stats-dark.svg \
+            top-langs-light.svg top-langs-dark.svg \
+            pacman-contribution-graph.svg pacman-contribution-graph-dark.svg
+          do
+            if [ ! -s "public/$f" ]; then
+              echo "::error::缺少生成文件 public/$f"
+              missing=1
+            fi
+          done
+          [ "$missing" -eq 0 ] || exit 1
+
+          echo "全部 8 张图片生成完毕："
+          ls -lh public
+
+      # ---------- 发布（force push，只保留最新一版，不撑大仓库） ----------
+      - name: 发布到 output 分支
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: public
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
