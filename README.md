@@ -1,3 +1,13 @@
+![Kawaii Murasame!](./kawaii.jpg)
+
+<p align="center">
+这些可爱的丛雨酱是来自<a href="https://x.com/uoouchan">@uoouchan</a>的！<br>
+これらの可愛いムラサメちゃんは<a href="https://x.com/uoouchan">@uoouchan</a>さんからのものです！<br>
+These adorable Murasame-chan are from <a href="https://x.com/uoouchan">@uoouchan</a>! 
+</p>
+
+---
+
 ## 你好,我是 ShirayukiKanade 👋.
 ### 🙋🏻 关于我
 - 🎓 一名大三学生
@@ -36,4 +46,26 @@
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 #### 📊 我的 GitHub 统计信息
-// 等待开发
+
+<p align="center">
+  <!-- 贡献统计卡（streak-stats）+ 最常用语言卡：跟随系统亮/暗主题自动切换，数据每日动态刷新 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=LeiSureLyYrsc&theme=github-dark&locale=zh&border=2E343B">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=LeiSureLyYrsc&theme=github&locale=zh&border=E4E2E2&background=FFFFFF">
+    <img width="460" alt="LeiSureLyYrsc 的 GitHub 贡献统计" src="https://streak-stats.demolab.com/?user=LeiSureLyYrsc&theme=github&locale=zh&border=E4E2E2&background=FFFFFF">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeiSureLyYrsc&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeiSureLyYrsc&theme=github">
+    <img width="340" alt="最常用的编程语言（按提交量统计）" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LeiSureLyYrsc&theme=github">
+  </picture>
+</p>
+
+<p align="center">
+  <!-- Contribution 吃豆人：每次加载实时读取贡献图生成，无需 GitHub Actions / workflow 文件 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://pacman.abozanona.me/?username=LeiSureLyYrsc&platform=github&gameTheme=github-dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://pacman.abozanona.me/?username=LeiSureLyYrsc&platform=github&gameTheme=github">
+    <img width="830" alt="Contribution 贡献图吃豆人动画" src="https://pacman.abozanona.me/?username=LeiSureLyYrsc&platform=github&gameTheme=github">
+  </picture>
+</p>
